@@ -18,9 +18,8 @@ using namespace std;
 int main() {
     string nome;
 
-    cout << "Digite seu nome:" << endl;
     cin >> nome;
-    cout << "Seu nome é: " << nome; 
+    cout << "Olá, " << nome << "!" << endl; 
 
     return 0;
 }
